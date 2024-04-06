@@ -2,11 +2,148 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: worksans;
 }
 
 html,
 body {
   width: 100%;
   height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: space-between; */
+  padding: 0px 30px;
+  padding-top: 100px;
+  gap: 50px;
+  background-color: cornsilk;
+}
+
+#left {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+  padding-bottom: 50px;
+}
+
+
+#left h1 {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 100px;
+  font-family: worksans;
+}
+
+
+#bottom-left {
+  /* height: 40%; */
+  width: 100%;
+}
+
+
+#color {
+  /* background-color: black; */
+  width: fit-content;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50px;
+
+}
+
+#color h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#color1 {
+  height: 17px;
+  width: 17px;
+  background-color: green;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+#color2 {
+  height: 17px;
+  width: 17px;
+  background-color: paleturquoise;
+  border-radius: 50%;
+}
+
+
+#left h2 {
+  font-size: 30px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#left p {
+  font-family: worksans;
+  font-weight: 600;
+  line-height: 25px;
+  width: 70%;
+  color: #444
+}
+
+#right {
+  height: 90%;
+  width: 33%;
+  /* background-color: lightgreen; */
+  position: relative;
+}
+
+#right-top {
+  height: 50px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#right img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+#black-gola {
+  height: 150px;
+  width: 150px;
+  background-color: lightcoral;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 82%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 80%;
+}
+
+#content {
+  height: 140px;
+  width: 340px;
+  /* background-color: black; */
+  color: black;
+  position: absolute;
+  top: 94%;
+  left: -10%;
+  rotate: -90deg;
+  transform-origin: 0 0;
+}
+
+#content h4 {
+  font-size: 20px;
+  font-weight: 600;
 }
